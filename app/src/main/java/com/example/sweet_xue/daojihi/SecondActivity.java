@@ -80,7 +80,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
 
 
     public void chage(){
-        if (number < 0){
+        if (number <= 0){
             btn2.setText("重发");
             btn2.setClickable(true);
         }else {
